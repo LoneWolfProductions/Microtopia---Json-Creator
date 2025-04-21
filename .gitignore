@@ -1,0 +1,5 @@
+# Ignore the 'src/json' folder
+src/json/
+
+# Ignore all .json files across the repository
+*.json
