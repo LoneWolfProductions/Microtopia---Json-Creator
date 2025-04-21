@@ -13,7 +13,7 @@ def generate_filename(file_path, sheet_name):
 def save_json_to_file(json_data, file_path, sheet_name):
     filename = generate_filename(file_path, sheet_name)
     current_dir = os.getcwd()
-    json_dir = os.path.join(current_dir, "json")
+    json_dir = os.path.join(current_dir, "src", "json")
 
     if not os.path.exists(json_dir):
         os.makedirs(json_dir)
