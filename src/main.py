@@ -1,15 +1,6 @@
 import os
 from utils.system import clear_screen
 from utils.steam_folder import get_microtopia_assets_path
-from utils.process_fods_to_json import process_fods_to_json
-
-if __name__ == "__main__":
-    clear_screen()
-
-    # Get the dynamic file path for the .fods file
-import os
-from utils.system import clear_screen
-from utils.steam_folder import get_microtopia_assets_path
 from utils.fods_loader import load_fods
 
 
